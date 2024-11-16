@@ -60,6 +60,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Login</button>
                 </form>
+		<p class="my-3 text-center">Don't have an account ? <a href="./register.php" class""> Register Here </a> </p>
             </div>
         </div>
     </div>
