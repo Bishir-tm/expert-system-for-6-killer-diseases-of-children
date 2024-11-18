@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <!-- Bootstrap 5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
     <style>
         body {
             background-color: #f0f2f5;
@@ -69,9 +69,9 @@
         </div>
     </div>
 
+    <script src="./assets/js/bootstrap.bundle.js"></script>
     <?php include './footer.php'; ?>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -54,7 +54,7 @@ $result = $stmt->get_result();
                             <td><?php echo $row['disease_name']; ?></td>
                             <td><?php echo $row['description']; ?></td>
                             <td><?php echo $row['treatment']; ?></td>
-                            <td><?php echo $row['follow_up_date'] ?? 'N/A'; ?></td>
+                            <td><?php echo isset($row['follow_up_date']) ? $row['follow_up_date'] : 'N/A'; ?></td>
                             <td>
                                 <?php 
                                 if (isset($row['follow_up_date'])) {
